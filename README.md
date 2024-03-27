@@ -55,3 +55,5 @@ This created a username that I can easily locate in Splunk by performing a targe
 <br />
 <br />
 <img src="https://github.com/Yagoobz/ActiveDirectoryProjectPart5/assets/145611184/5ad14632-dde1-4918-8eb4-e1ea285c8afd" height="30%" width="70%" alt="Disk Sanitization Steps"/>
+
+Engaging in tasks such as performing a Brute Force Attack using Kali Linux, analyzing telemetry data in Splunk, and setting up Atomic Red Team has been both enjoyable and enlightening. These experiences have deepened my understanding of cybersecurity practices and methodologies, equipping me with valuable skills for future projects in the field. I look forward to applying these learnings and contributing meaningfully to cybersecurity initiatives.
