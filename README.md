@@ -24,7 +24,7 @@ After configuring the static IP address on the Kali Linux machine, I proceed to 
 Before launching the attack, I enable Remote Desktop on the target machine by accessing "Advanced system settings" and navigating to the "Remote" tab where I enable the option for "Allow remote connections to this computer." Subsequently, I add the two users I created for remote access and ensure their names are correctly entered for authentication.
 <br />
 <br />
-<img src="..." height="30%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/Yagoobz/ActiveDirectoryProjectPart5/assets/145611184/f62c92ea-0202-4299-bf45-43f5eb8c4e1d" height="30%" width="70%" alt="Disk Sanitization Steps"/>
 
 On Kali Linux, I initiate the attack using Crowbar by executing the command "crowbar -b rdp -u gjones -C passwords.txt -s 192.168.10.100/32." Here's a breakdown of the command parameters: "-b" specifies the service (in this case, RDP), "-u" designates the username to be tested (gjones in this instance), "-C" indicates the password list to be used (previously created as passwords.txt), and "-s" specifies the source IP address. Additionally, I use the CIDR notation "/32" to target only the specific IP address. Upon running the command, I successfully obtain an RDP-SUCCESS result with the username and password, showcasing the effectiveness of the attack.
 <br />
