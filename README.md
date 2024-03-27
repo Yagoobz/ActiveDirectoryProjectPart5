@@ -34,7 +34,7 @@ On Kali Linux, I initiate the attack using Crowbar by executing the command "cro
 Let's analyze the telemetry data in Splunk to gain insights into the attack. In the Splunk search tab, I enter the query "index=endpoint gjones" and then focus on the "Event Code." This reveals that there are 41 instances of event ID 4625, indicating failed login attempts to the gjones account. This aligns with expectations, as the "passwords.txt" file used in the Crowbar attack contained 42 passwords, including two correct ones that I deliberately included for the users. By clicking on the event ID 4625, I observe that all events occurred nearly simultaneously, suggesting a brute force activity pattern. This analysis in Splunk provides valuable visibility into the attack attempts and highlights the importance of monitoring and analyzing telemetry data for security purposes.
 <br />
 <br />
-<img src="..." height="30%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/Yagoobz/ActiveDirectoryProjectPart5/assets/145611184/273c5082-c6dc-4b9e-a010-18cc428bb0ac" height="30%" width="70%" alt="Disk Sanitization Steps"/>
 
 That's a crucial observation. Alongside the 4625 event ID indicating failed login attempts, there's also a 4624 event ID signifying a successful login to the account. By expanding the details of this event, we can gather additional information such as the workstation name from Kali Linux and the corresponding IP address used for the successful login. This provides further context and insight into the attack scenario, allowing for a more comprehensive understanding of the security incident.
 <br />
