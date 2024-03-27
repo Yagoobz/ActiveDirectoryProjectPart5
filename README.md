@@ -14,7 +14,7 @@
 On the Kali Linux machine, I configure a static IP address of 192.168.10.250 by navigating to Network Connections and changing the IPv4 settings from DHCP to Manual. Then, I add the IP address, Netmask, Gateway, and DNS servers accordingly.
 <br />
 <br />
-<img src="..." height="30%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/Yagoobz/ActiveDirectoryProjectPart5/assets/145611184/86b313e5-18e4-4103-8e49-b839da89903b" height="30%" width="70%" alt="Disk Sanitization Steps"/>
 
 After configuring the static IP address on the Kali Linux machine, I proceed to open a terminal and execute the commands to update and upgrade the system. Despite taking a considerable amount of time, the update and upgrade processes are crucial for system stability and security. Moving on to the attack, I utilize a tool called Crowbar by installing it through the terminal with the command "sudo apt-get install -y crowbar." Once Crowbar is installed, I access the "rockyou" wordlist that comes pre-installed with Kali Linux by navigating to the directory "/usr/share/wordlists/" in the terminal. Then, I unzip the "rockyou" file and copy its contents onto a separate file for further use in the attack.
 <br />
