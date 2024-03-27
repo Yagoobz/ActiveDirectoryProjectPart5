@@ -19,7 +19,7 @@ On the Kali Linux machine, I configure a static IP address of 192.168.10.250 by 
 After configuring the static IP address on the Kali Linux machine, I proceed to open a terminal and execute the commands to update and upgrade the system. Despite taking a considerable amount of time, the update and upgrade processes are crucial for system stability and security. Moving on to the attack, I utilize a tool called Crowbar by installing it through the terminal with the command "sudo apt-get install -y crowbar." Once Crowbar is installed, I access the "rockyou" wordlist that comes pre-installed with Kali Linux by navigating to the directory "/usr/share/wordlists/" in the terminal. Then, I unzip the "rockyou" file and copy its contents onto a separate file for further use in the attack.
 <br />
 <br />
-<img src="..." height="30%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/Yagoobz/ActiveDirectoryProjectPart5/assets/145611184/956e7f18-651b-4282-a10c-ac76d13402be" height="30%" width="70%" alt="Disk Sanitization Steps"/>
 
 Before launching the attack, I enable Remote Desktop on the target machine by accessing "Advanced system settings" and navigating to the "Remote" tab where I enable the option for "Allow remote connections to this computer." Subsequently, I add the two users I created for remote access and ensure their names are correctly entered for authentication.
 <br />
