@@ -51,7 +51,7 @@ In the C drive, navigate to the Atomic Red Team folder, which contains a subfold
 <br />
 <img src="..." height="30%" width="70%" alt="Disk Sanitization Steps"/>
 
-This created a username that I can easily locate in Splunk by performing a targeted search. To find it, I simply enter "index=endpoint NewLocalUser" in the search tab. Voila! There it is, ready for me to explore.
+This created a username that I can easily locate in Splunk by performing a targeted search. To find it, I simply enter "index=endpoint NewLocalUser" in the search tab. Boom! There it is, ready for me to explore.
 <br />
 <br />
 <img src="..." height="30%" width="70%" alt="Disk Sanitization Steps"/>
