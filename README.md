@@ -49,7 +49,7 @@ Firstly, open PowerShell with administrator privileges and execute the command "
 In the C drive, navigate to the Atomic Red Team folder, which contains a subfolder named "atomics" housing various technique IDs that align with the MITRE ATT&CK framework. To test one of these techniques, refer to the MITRE ATT&CK Matrix for Enterprise website and select a technique code, such as T1136. Among the available codes, choose the first one (e.g., T1136.001). In PowerShell, execute the command "Invoke-AtomicTest T1136.001" to trigger the Atomic Red Team framework to generate telemetry simulating the creation of a local account, providing valuable insights into system security and detection capabilities.
 <br />
 <br />
-<img src="..." height="30%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/Yagoobz/ActiveDirectoryProjectPart5/assets/145611184/7476ef05-c1e5-4542-a90f-c2d6eac7aa56" height="30%" width="70%" alt="Disk Sanitization Steps"/>
 
 This created a username that I can easily locate in Splunk by performing a targeted search. To find it, I simply enter "index=endpoint NewLocalUser" in the search tab. Boom! There it is, ready for me to explore.
 <br />
