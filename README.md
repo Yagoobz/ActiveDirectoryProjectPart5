@@ -44,7 +44,7 @@ That's a crucial observation. Alongside the 4625 event ID indicating failed logi
 Firstly, open PowerShell with administrator privileges and execute the command "Set-ExecutionPolicy Bypass CurrentUser" to bypass the execution policy. Next, install the Atomic Red Team framework, but before doing so, set an exclusion for the entire C drive in Windows Security settings to prevent Microsoft Defender from removing some Atomic Red Team files. Navigate to Windows Security, then Virus & Threat Protection, Manage Settings, Add or Remove Exclusions, and add the C drive. With the exclusion set, proceed to install Atomic Red Team by copying and pasting the commands from a GitHub page, making the process straightforward and efficient.
 <br />
 <br />
-<img src="..." height="30%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/Yagoobz/ActiveDirectoryProjectPart5/assets/145611184/ff975541-e6bf-410b-8841-e76bce708d44" height="30%" width="70%" alt="Disk Sanitization Steps"/>
 
 In the C drive, navigate to the Atomic Red Team folder, which contains a subfolder named "atomics" housing various technique IDs that align with the MITRE ATT&CK framework. To test one of these techniques, refer to the MITRE ATT&CK Matrix for Enterprise website and select a technique code, such as T1136. Among the available codes, choose the first one (e.g., T1136.001). In PowerShell, execute the command "Invoke-AtomicTest T1136.001" to trigger the Atomic Red Team framework to generate telemetry simulating the creation of a local account, providing valuable insights into system security and detection capabilities.
 <br />
