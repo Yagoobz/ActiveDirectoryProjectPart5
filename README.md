@@ -39,7 +39,7 @@ Let's analyze the telemetry data in Splunk to gain insights into the attack. In 
 That's a crucial observation. Alongside the 4625 event ID indicating failed login attempts, there's also a 4624 event ID signifying a successful login to the account. By expanding the details of this event, we can gather additional information such as the workstation name from Kali Linux and the corresponding IP address used for the successful login. This provides further context and insight into the attack scenario, allowing for a more comprehensive understanding of the security incident.
 <br />
 <br />
-<img src="..." height="30%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/Yagoobz/ActiveDirectoryProjectPart5/assets/145611184/2dbbfe94-9900-4ad3-add2-aedd4b608147" height="30%" width="70%" alt="Disk Sanitization Steps"/>
 
 Firstly, open PowerShell with administrator privileges and execute the command "Set-ExecutionPolicy Bypass CurrentUser" to bypass the execution policy. Next, install the Atomic Red Team framework, but before doing so, set an exclusion for the entire C drive in Windows Security settings to prevent Microsoft Defender from removing some Atomic Red Team files. Navigate to Windows Security, then Virus & Threat Protection, Manage Settings, Add or Remove Exclusions, and add the C drive. With the exclusion set, proceed to install Atomic Red Team by copying and pasting the commands from a GitHub page, making the process straightforward and efficient.
 <br />
